@@ -2,7 +2,7 @@ module.exports = {
   title: 'Jubayer Juhan',
   tagline: 'Documentation website',
   url: 'http://localhst:3001/',
-  baseUrl: '/docusaurus-example-youtube/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'jubayerjuhan', // Usually your GitHub org/user name.
