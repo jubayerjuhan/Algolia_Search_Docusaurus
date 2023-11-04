@@ -14,7 +14,7 @@ This is our official documentation.
 
 Follow these steps:
 
-* download our code
-* save it on your laptop
+- download our code
+- save it on your laptop
 
 [For more info](https://www.google.com/)

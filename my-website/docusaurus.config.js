@@ -1,15 +1,15 @@
 module.exports = {
   title: 'Edy',
   tagline: 'Documentation website',
-  url: 'https://FedericoTartarini.github.io',
+  url: 'http://localhst:3001/',
   baseUrl: '/docusaurus-example-youtube/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'FedericoTartarini', // Usually your GitHub org/user name.
-  projectName: 'docusaurus-example-youtube', // Usually your repo name.
+  organizationName: 'jubayerjuhan', // Usually your GitHub org/user name.
+  projectName: 'docusaurus-example', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'EDY',
+      title: 'Juhan',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.png',
@@ -21,7 +21,7 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        { to: 'blog', label: 'Blog', position: 'left' },
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
@@ -30,14 +30,15 @@ module.exports = {
       ],
     },
     algolia: {
-      apiKey: 'e44c59d36394a26b1616e631a1c9d197',
-      indexName: 'edy',
-      appId: 'HXJSB0I3EO',
+      apiKey: '6ccb94f13c322e8cd15b595ea19f51dd',
+      indexName: 'docu',
+      appId: 'WU6EIWASA3',
 
       // Optional: see doc section bellow
-      // contextualSearch: true,
+      contextualSearch: true,
 
       //... other Algolia params
+      placeholder: 'Search....fff',
     },
     footer: {
       style: 'dark',
