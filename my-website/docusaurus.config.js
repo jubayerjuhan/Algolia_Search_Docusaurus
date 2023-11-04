@@ -11,7 +11,7 @@ module.exports = {
     navbar: {
       title: 'Juhan',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'My Site Logoo',
         src: 'img/logo.png',
       },
       items: [
