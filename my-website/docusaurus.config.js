@@ -1,8 +1,8 @@
 module.exports = {
   title: 'Jubayer Juhan',
   tagline: 'Documentation website',
-  url: 'http://localhst:3001/',
-  baseUrl: '/',
+  url: 'http://localhst:3001/demo',
+  baseUrl: '/demo/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'jubayerjuhan', // Usually your GitHub org/user name.
