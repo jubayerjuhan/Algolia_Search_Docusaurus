@@ -2,7 +2,7 @@ module.exports = {
   title: 'Jubayer Juhan',
   tagline: 'Documentation website',
   url: 'http://localhst:3001/',
-  baseUrl: '/',
+  baseUrl: '/docusaurus-example-youtube/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'jubayerjuhan', // Usually your GitHub org/user name.
@@ -35,7 +35,7 @@ module.exports = {
       appId: 'WU6EIWASA3',
 
       // Optional: see doc section bellow
-      contextualSearch: true,
+      // contextualSearch: true,
 
       //... other Algolia params
       placeholder: 'Search....fff',
