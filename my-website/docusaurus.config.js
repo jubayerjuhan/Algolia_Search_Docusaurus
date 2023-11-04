@@ -1,17 +1,17 @@
 module.exports = {
-  title: 'Jubayer Juhan',
+  title: 'Edy',
   tagline: 'Documentation website',
-  url: 'http://localhst:3001/',
-  baseUrl: '/',
+  url: 'https://algolia-search-docusaurus.vercel.app/docusaurus-example-youtube/',
+  baseUrl: '/docusaurus-example-youtube/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'jubayerjuhan', // Usually your GitHub org/user name.
-  projectName: 'Algolia_Search_Docusaurus', // Usually your repo name.
+  projectName: 'docusaurus-example', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Juhan',
       logo: {
-        alt: 'My Site Logoo',
+        alt: 'My Site Logo',
         src: 'img/logo.png',
       },
       items: [
@@ -35,7 +35,7 @@ module.exports = {
       appId: 'WU6EIWASA3',
 
       // Optional: see doc section bellow
-      // contextualSearch: true,
+      contextualSearch: true,
 
       //... other Algolia params
       placeholder: 'Search....fff',
@@ -87,7 +87,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Jubayer Juhan, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} EDY, Inc. Built with Docusaurus.`,
     },
   },
   presets: [
