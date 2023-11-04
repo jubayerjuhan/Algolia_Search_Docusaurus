@@ -1,8 +1,6 @@
 {
   "index_name": "docu",
-  "start_urls": [
-    "https://federicotartarini.github.io/docusaurus-example-youtube/"
-  ],
+  "start_urls": ["http://localhost:3000/"],
   "sitemap_urls": [
     "https://federicotartarini.github.io/docusaurus-example-youtube/sitemap.xml"
   ],
