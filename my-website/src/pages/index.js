@@ -10,11 +10,11 @@ const features = [
   {
     title: <>My website</>,
     imageUrl: 'img/undraw_figure.svg',
-      secondParagraph: (
-          <>
-              First
-          </>
-      ),
+    secondParagraph: (
+      <>
+        First One
+      </>
+    ),
     description: (
       <>
         Docusaurus was designed from the ground up to be easily installed and
@@ -25,11 +25,11 @@ const features = [
   {
     title: <>Focus on What Matters</>,
     imageUrl: 'img/undraw_docusaurus_tree.svg',
-      secondParagraph: (
-          <>
-              Second
-          </>
-      ),
+    secondParagraph: (
+      <>
+        Second
+      </>
+    ),
     description: (
       <>
         Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
@@ -40,11 +40,11 @@ const features = [
   {
     title: <>Powered by React</>,
     imageUrl: 'img/undraw_docusaurus_react.svg',
-      secondParagraph: (
-          <>
-              Third
-          </>
-      ),
+    secondParagraph: (
+      <>
+        Third
+      </>
+    ),
     description: (
       <>
         Very nice your website layout by reusing React. Docusaurus can
@@ -54,7 +54,7 @@ const features = [
   },
 ];
 
-function Feature({imageUrl, title, description, secondParagraph}) {
+function Feature({ imageUrl, title, description, secondParagraph }) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
     <div className={clsx('col col--4', styles.feature)}>
@@ -72,7 +72,7 @@ function Feature({imageUrl, title, description, secondParagraph}) {
 
 function Home() {
   const context = useDocusaurusContext();
-  const {siteConfig = {}} = context;
+  const { siteConfig = {} } = context;
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
