@@ -1,12 +1,12 @@
 module.exports = {
-  title: 'Edy',
+  title: 'Jubayer Juhan',
   tagline: 'Documentation website',
   url: 'http://localhst:3001/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'jubayerjuhan', // Usually your GitHub org/user name.
-  projectName: 'docusaurus-example', // Usually your repo name.
+  projectName: 'Algolia_Search_Docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Juhan',
@@ -87,7 +87,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} EDY, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Jubayer Juhan, Inc. Built with Docusaurus.`,
     },
   },
   presets: [
